@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffdd57; /* A fun, yellow shade */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner {
+    /* Replace with your actual image file path */
+    background-image: url('banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 320px; /* Adjust based on actual banner dimensions */
+}
+
+main {
+    padding: 20px;
+}
+
+.title-section, .about-section, .participate-section {
+    background-color: #ffffff;
+    border: 1px solid #ffdd57; /* Yellow border */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(255, 221, 87, 0.2); /* Yellow shadow for a fun look */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.submit-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffdd57;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(255, 221, 87, 0.5);
+}
+
+.cta-button:hover {
+    background-color: #f4d03f;
+    transform: translateY(-2px); /* A subtle lift effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+/* Fun additions */
+h1, h2, h3 {
+    border-bottom: 2px solid #ffdd57;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ffdd57; /* Fun yellow hover effect */
+}
+
+
