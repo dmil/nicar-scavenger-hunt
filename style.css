@@ -26,7 +26,7 @@ main {
     padding: 20px;
 }
 
-.title-section, .about-section, .participate-section {
+.title-section, .about-section, .participate-section, .questions-section {
     background-color: #ffffff;
     border: 1px solid #ffdd57; /* Yellow border */
     padding: 20px;
