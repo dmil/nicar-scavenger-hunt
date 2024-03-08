@@ -35,6 +35,30 @@ main {
     border-radius: 8px; /* Rounded corners for a softer look */
 }
 
+.title-section h2 {
+    
+    border: none;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.title-section .subtitle {
+    color: #777;
+    margin-top: 0;
+    /* italics */
+    font-style: italic;
+}
+
+.title-section a {
+    /* pick a darker yellow */
+    color: #efc620;
+
+
+    text-decoration: none;
+    /* underline */
+    border-bottom: 1px solid #ffdd57;
+}
+
 h1, h2, h3 {
     color: #333;
 }
@@ -46,20 +70,21 @@ h1, h2, h3 {
 
 .cta-button {
     display: inline-block;
-    background-color: #ffdd57;
-    color: #333;
-    padding: 10px 20px;
-    font-size: 18px;
+    background-color: #ffdd57; /* Yellow background */
+    color: #333; /* Text color */
+    padding: 15px 30px; /* Increased padding for a larger button */
+    font-size: 20px; /* Increased font size for better visibility */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Slightly larger border-radius for aesthetic */
     transition: background-color 0.3s, transform 0.3s;
-    box-shadow: 0 4px 8px rgba(255, 221, 87, 0.5);
+    box-shadow: 0 4px 8px rgba(255, 221, 87, 0.5); /* Shadow for depth */
 }
 
 .cta-button:hover {
-    background-color: #f4d03f;
-    transform: translateY(-2px); /* A subtle lift effect on hover */
+    background-color: #f4d03f; /* Slightly darker yellow on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
 }
+
 
 footer {
     text-align: center;
@@ -84,5 +109,3 @@ footer a {
 footer a:hover {
     color: #ffdd57; /* Fun yellow hover effect */
 }
-
-
